@@ -6,7 +6,17 @@
   <a href="CHANGELOG_EN.md">🇺🇸 English</a>
 </p>
 
-## v1.2.0(main)
+## v1.2.1(main)
+
+### Bug Fixes
+
+- fix: |定时任务| 修复定时任务清理报错 `e.get is not a function`，使用可选链安全访问 Context 方法
+
+### Improvements
+
+- style: |AI 提取| 暗色模式下 AI 提取信息使用更柔和的蓝色 (#A8C7FA)，减少视觉疲劳
+
+## v1.2.0
 
 ### Breaking Changes
 
